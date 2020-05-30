@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks'
 
 # For View
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 gem 'oj'
 
 # For Image upload
