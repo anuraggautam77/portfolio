@@ -83,7 +83,7 @@ group :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'timecop'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.9.0'
   gem "chromedriver-helper"
   gem "selenium-webdriver"
   gem 'shoulda-matchers'
