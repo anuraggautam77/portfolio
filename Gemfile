@@ -16,7 +16,7 @@ gem 'kaminari'
 gem 'oj'
 
 # For Image upload
-gem 'carrierwave'                 # Image uploader
+gem 'carrierwave'                 , '>= 1.3.2' # Image uploader
 gem 'mini_magick'                 # resizable image
 gem 'fog', require: "fog/aws/storage"
 
