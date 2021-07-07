@@ -64,7 +64,7 @@ group :development do
   gem 'awesome_print'
   gem 'hirb'
   gem 'hirb-unicode'
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.4.1'
   gem 'rack-mini-profiler'#, require: false
   gem 'bullet'
   gem 'quiet_assets'
@@ -79,15 +79,15 @@ end
 group :test do
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'database_cleaner'
-  gem 'capybara'
+  gem 'capybara', '>= 2.7.0'
   gem 'timecop'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.9.0'
   gem "chromedriver-helper"
   gem "selenium-webdriver"
   gem 'shoulda-matchers'
-  gem 'webmock'
+  gem 'webmock', '>= 2.0.0'
   gem 'vcr'
   gem 'spring-commands-rspec'
   gem "codeclimate-test-reporter", require: nil
